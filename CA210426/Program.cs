@@ -96,7 +96,7 @@ namespace CA210426
 
             srMegoldas.Close();
             srTeszt.Close();
-
+            /*
             for (int i = 0; i < kerdesek.Count / 2; i++)
             {
                 int x = rnd.Next(kerdesek.Count);
@@ -105,9 +105,8 @@ namespace CA210426
                 var s = kerdesek[x];
                 kerdesek[x] = kerdesek[y];
                 kerdesek[y] = s;
-
             }
-
+            */
         }
         private static void Tovabb(string szoveg)
         {
